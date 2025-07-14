@@ -7,8 +7,7 @@ import StatusBadge from './StatusBadge';
 import PriorityBadge from './PriorityBadge';
 
 const SpreadsheetGrid: React.FC = () => {
-  const [data, setData] = useState<JobRequest[]>(mockJobRequests);
-  const [sortConfig, setSortConfig] = useState<{ key: string; direction: 'asc' | 'desc' } | null>(null);
+  const [data] = useState<JobRequest[]>(mockJobRequests);
   const [selectedCell, setSelectedCell] = useState<{ row: number; col: number } | null>(null);
   const gridRef = useRef<HTMLDivElement>(null);
 
