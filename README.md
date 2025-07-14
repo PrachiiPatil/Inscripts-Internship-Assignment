@@ -29,7 +29,7 @@ A pixel-perfect React spreadsheet application built with TypeScript and Tailwind
 
 1. **Clone and install dependencies:**
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/PrachiiPatil/Inscripts-Internship-Assignment.git
 cd spreadsheet-app
 npm install
 ```
@@ -74,6 +74,9 @@ src/
 ├── main.tsx
 └── index.css
 ```
+
+## Live URL
+[https://inscriptsproject.netlify.app/](https://inscriptsproject.netlify.app/)
 
 ## Key Features Implemented
 
